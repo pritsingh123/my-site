@@ -1,0 +1,144 @@
+@import url('https://fonts.googleapis.com/css?family=Josefin+Sans');
+
+
+html{
+    height: 100%;
+    font-family: 'Josefin Sans', cursive;
+}
+
+body{
+    min-height: 100%;
+}
+
+.carousel{
+    height: 500%;
+    width: 95%;
+    margin-left: 2.5%;
+}
+
+.home-header{
+    text-align: center;
+    font-style: italic;
+}
+
+
+.me-auto{
+    font-style: italic;
+    font-weight: bold;
+}
+
+.about-content{
+    display: flex;
+    /* align-items: center; */
+}
+.about-img{
+    width: 50%;
+    height: 400px;;
+    float: left;
+    /* border-color: black;
+    border-style: solid; */
+}
+.about-content-inner{
+    width: 40%;
+    float: left;
+    margin-left: 3%;
+    font-size:50px;
+    color:rgb(159, 142, 89);
+    font-family: GT Super,serif;
+    border-left: 1rem solid;
+    border-left-width: 10px;
+    border-color: rgb(159, 142, 89)
+}
+.about-inner-image{
+    height: 400px;
+    width: 100%;
+    border-radius: 10%;;
+}
+.about-headline{
+    width: 70%;
+    text-align: center;
+    font-weight: bold;
+    margin-left:15%;
+    margin-bottom: 3vh;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+
+}
+
+.map{
+    height: 100%;
+    width: 100%;
+}
+
+
+.contact-main{
+    display: flex;
+    margin-top: 70px;
+
+    /* align-items: center; */
+}
+
+.map-container{
+    /* height:15rem;
+    width: 100%; */
+    margin-left: 5%;
+    width: 80%;
+    height: 400px;;
+    float: left;
+    border-color: #4c4a44;
+    border-style: outset;
+    border-width: .5vh;
+}
+.contact-text{
+    width: 40%;
+    float: left;
+    margin-left: 3%;
+    /* font-size:50px; */
+    /* color:gold; */
+    font-family: GT Super,serif;
+    /* border-left: 1rem solid; */
+    /* border-left-width: 10px; */
+    /* border-color: #f5c951; */
+}
+@media only screen and (max-width: 750px) {
+    .contact-main{
+        display: inline;
+    }
+    .map-container{
+        width:80%;
+        float:none;
+        margin-left: 10%;
+    }
+    .contact-text{
+        margin-top: 2vh;
+        width:80%;
+        float:none;
+    }
+
+
+    
+
+  }
+
+  @media only screen and (max-width: 900px) {
+    .about-content{
+        display: inline;
+    }
+    .about-img{
+        width:80%;
+        float:none;
+        margin-left: 10%;
+    }
+    .about-content-inner{
+        margin-top: 2vh;
+        width:80%;
+        float:none;
+        margin-left: 10%;
+        margin-top: 2%;
+    }
+  }
+.red{
+    color: red;
+}
+
+
+
