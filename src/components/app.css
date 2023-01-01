@@ -1,5 +1,9 @@
 @import url('https://fonts.googleapis.com/css?family=Josefin+Sans');
 
+.main-outer-div{
+    background-color: #fff;
+    /* background-color:rgb(235, 228, 228); */
+}
 
 html{
     height: 100%;
@@ -18,7 +22,8 @@ body{
 
 .home-header{
     text-align: center;
-    font-style: italic;
+    /* font-style: italic; */
+    
 }
 
 
@@ -52,7 +57,9 @@ body{
 .about-inner-image{
     height: 400px;
     width: 100%;
-    border-radius: 10%;;
+    border-radius: 5%;;
+    margin-left: 3%;
+    margin-top:1%;
 }
 .about-headline{
     width: 70%;
@@ -99,6 +106,9 @@ body{
     /* border-left-width: 10px; */
     /* border-color: #f5c951; */
 }
+.card-body {
+    height: 200px
+}
 @media only screen and (max-width: 750px) {
     .contact-main{
         display: inline;
@@ -113,13 +123,17 @@ body{
         width:80%;
         float:none;
     }
+    .about-inner-image{
+        margin-left: 0%;
+    }
 
-
-    
+    .card-body{
+        height:auto;
+    }
 
   }
 
-  @media only screen and (max-width: 900px) {
+  @media only screen and (max-width: 950px) {
     .about-content{
         display: inline;
     }
@@ -135,10 +149,68 @@ body{
         margin-left: 10%;
         margin-top: 2%;
     }
+    .about-inner-image{
+        margin-left: 0%;
+    }
+    .card-body{
+        height:auto;
+    }
   }
 .red{
     color: red;
 }
+.yello{
+    color:yellow;
+}
+.about-wedo{
+    text-align: center;
+    color :rgb(159, 142, 89);
+    font-weight: bolder;
+}
+.about-list-item{
+    margin-left: 25px;
+}
+.about-icon{
+    margin-right: 40px;
+}
+
+.MuiSvgIcon-root{
+    margin-right:15px;
+}
+
+.nav-link{
+color: white;
+margin-left: 5vh;
+}
+
+.card{
+    margin-left: 2vh;
+}
+
+.center{
+    text-align: center;
+}
+.row{
+    margin-right:0%
+}
+.card-img-top{
+    height: 250px;
+}
 
 
-
+.footer{
+    /* margin-top: 10vh; */
+    padding-top: 1rem;
+    background-color: rgb(235, 195, 64);
+    position: absolute;
+    left: 0;
+    width: 100%;
+    /* display: flex; */
+    color:#fff;
+    background-color: black;
+    height:100px;
+    color:#fff;
+    text-align: center;
+    margin-top:2vh;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  }

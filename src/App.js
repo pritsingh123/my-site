@@ -3,7 +3,6 @@ import "bootstrap/dist/css/bootstrap.min.css";
 import Home from "./components/Home";
 import About from "./components/About";
 import Gallary from "./components/gallary";
-import Footer from "./components/footer";
 import Contact from "./components/Contact";
 import { Navbar, Container, Nav } from "react-bootstrap";
 import { BrowserRouter, Route, Link, Routes } from "react-router-dom";
@@ -12,18 +11,21 @@ import React from "react";
 import "./components/app.css";
 
 function App() {
-  document.body.style.backgroundImage = "url('./media/background.jpeg')";
+  //document.body.style.backgroundImage = "url('./media/background.jpeg')";
   return (
-    <React.Fragment>
+    <div className="main-outer-div">
       <BrowserRouter>
         <div>
-          <Navbar bg="light" expand="lg">
+          <Navbar bg="dark" expand="lg" variant="dark">
             <Container fluid>
-              <Navbar.Brand to={"#"}>
+              <Navbar.Brand href={"/"}>
                 {<FoundationIcon />}HSS Construction
               </Navbar.Brand>
               <Navbar.Toggle aria-controls="navbarScroll" />
-              <Navbar.Collapse id="navbarScroll">
+              <Navbar.Collapse
+                id="navbarScroll"
+                className="collapse navbar-collapse"
+              >
                 <Nav
                   className="me-auto my-2 my-lg-0"
                   style={{ maxHeight: "100px" }}
@@ -39,7 +41,7 @@ function App() {
                     Contact
                   </Nav.Link>
                   <Nav.Link as={Link} to={"/gallary"}>
-                    Gallary
+                    Gallery
                   </Nav.Link>
                 </Nav>
               </Navbar.Collapse>
@@ -55,8 +57,7 @@ function App() {
           </div>
         </div>
       </BrowserRouter>
-      {/* <Footer /> */}
-    </React.Fragment>
+    </div>
   );
 }
 

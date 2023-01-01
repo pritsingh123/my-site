@@ -1,7 +1,6 @@
 import React from "react";
 import Footer from "./footer";
 import "./app.css";
-import Slider from "./slider";
 import EmailIcon from "@mui/icons-material/Email";
 import LocationOnIcon from "@mui/icons-material/LocationOn";
 import LocalPhoneIcon from "@mui/icons-material/LocalPhone";

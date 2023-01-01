@@ -3,11 +3,15 @@ import "./app.css";
 import img from "../media/image_26.jpg";
 import ListGroup from "react-bootstrap/ListGroup";
 import Footer from "./footer";
+import ConstructionRoundedIcon from "@mui/icons-material/ConstructionRounded";
 const About = () => {
   return (
     <>
       <hr />
-      <h2 className="home-header">Check Us!! We are better than rest 😎.</h2>
+      <h2 className="home-header">
+        <span className="red">Check</span> Us!! We Are{" "}
+        <span className="red">Better</span> Than Rest 😎.
+      </h2>
       <hr />
       <h4 className="home-header">About HHS Constructions</h4>
       <div className="about-headline">
@@ -37,13 +41,42 @@ const About = () => {
         includes our team, our subcontractors, and most importantly of course –
         you, the customer.
       </div>
+      <hr />
       <div className="about-bullets">
-        <h4>Here is the List, what we Do</h4>
+        <h4 className="about-wedo">Here's What We Do</h4>
         <ListGroup variant="flush">
-          <ListGroup.Item>Cras justo odio</ListGroup.Item>
-          <ListGroup.Item>Dapibus ac facilisis in</ListGroup.Item>
-          <ListGroup.Item>Morbi leo risus</ListGroup.Item>
-          <ListGroup.Item>Porta ac consectetur ac</ListGroup.Item>
+          <ListGroup.Item>
+            <ConstructionRoundedIcon />
+            Concrete
+          </ListGroup.Item>
+          <ListGroup.Item>
+            <ConstructionRoundedIcon />
+            Stamping
+          </ListGroup.Item>
+          <ListGroup.Item>
+            <ConstructionRoundedIcon />
+            Exposing
+          </ListGroup.Item>
+          <ListGroup.Item>
+            <ConstructionRoundedIcon />
+            Fence
+          </ListGroup.Item>
+          <ListGroup.Item>
+            <ConstructionRoundedIcon />
+            Interlocking
+          </ListGroup.Item>
+          <ListGroup.Item>
+            <ConstructionRoundedIcon />
+            Side Entrance
+          </ListGroup.Item>
+          <ListGroup.Item>
+            <ConstructionRoundedIcon />
+            Finished Basement
+          </ListGroup.Item>
+          <ListGroup.Item>
+            <ConstructionRoundedIcon />
+            Full Renovation
+          </ListGroup.Item>
         </ListGroup>
       </div>
       <Footer />
