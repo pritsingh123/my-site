@@ -23,13 +23,6 @@ const Contact = () => {
         <div className="contact-text">
           <h2 className="contact-header">Contact Us</h2>
           <div className="contact-contact-list">
-            {/* {<EmailIcon />}prit8530@gmail.com <br />
-            {<LocationOnIcon />}231 timberlane driver
-            <br />
-            {<LocalPhoneIcon />}51454540066
-            <br />
-            {<PhoneAndroidIcon />}67617617888
-            <br /> */}
             <ListGroup variant="flush">
               <ListGroup.Item>
                 <EmailIcon />
@@ -51,6 +44,7 @@ const Contact = () => {
           </div>
         </div>
       </div>
+      <hr />
 
       <Footer />
     </div>
