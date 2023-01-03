@@ -4,13 +4,12 @@ import "./app.css";
 const Map = (props) => {
   const mapRef = useRef();
   const center = {
-    lat: 43.6487711,
-    lng: -79.7260996,
+    lat: 43.6875475,
+    lng: -79.8429575,
   };
   const zoom = 10;
 
   useEffect(() => {
-    console.log("kjhdjfhkjhsdnf");
     const map = new window.google.maps.Map(mapRef.current, {
       center: center,
       zoom: zoom,

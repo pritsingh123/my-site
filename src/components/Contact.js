@@ -33,11 +33,11 @@ const Contact = () => {
             <ListGroup variant="flush">
               <ListGroup.Item>
                 <EmailIcon />
-                prit8530@gmail.com
+                <a href="mailto: abc@example.com">sukhdevdham57@gmail.com </a>
               </ListGroup.Item>
               <ListGroup.Item>
                 <LocationOnIcon />
-                231 timberlane driver
+                65 Miracle Trail
               </ListGroup.Item>
               <ListGroup.Item>
                 <LocalPhoneIcon />
