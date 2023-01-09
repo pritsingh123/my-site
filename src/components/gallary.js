@@ -2,6 +2,7 @@ import React, { useState } from "react";
 import "./gallary.css";
 import CloseIcon from "@mui/icons-material/Close";
 import Footer from "./footer";
+// import VideoCarousel from "./videoCarousel";
 
 const Gallary = () => {
   const data = [
@@ -106,6 +107,26 @@ const Gallary = () => {
       id: 20,
       imgSrc: require("../media/image_20.jpg"),
     },
+    {
+      id: 20,
+      imgSrc: require("../media/image_36.jpeg"),
+    },
+    // {
+    //   id: 34,
+    //   vidSrc: require("../media/video1.mp4"),
+    // },
+    // {
+    //   id: 35,
+    //   vidSrc: require("../media/video2.mp4"),
+    // },
+    // {
+    //   id: 36,
+    //   vidSrc: require("../media/video3.mp4"),
+    // },
+    // {
+    //   id: 37,
+    //   vidSrc: require("../media/video4.mp4"),
+    // },
   ];
   const [model, setModel] = useState(false);
   const [tempImgSrc, setTempImgSrc] = useState("");
@@ -141,6 +162,49 @@ const Gallary = () => {
           );
         })}
       </div>
+      <hr />
+      <div className="gallary-header">
+        <h2>
+          Video <span className="red">Gallery</span>
+        </h2>
+      </div>
+      <hr />
+      {/* <VideoCarousel /> */}
+      <video style={{ height: 360, width: "100%" }} controls>
+        <source
+          src="https://hhsconstruction.s3.us-west-2.amazonaws.com/video5.mp4"
+          type="video/mp4"
+        ></source>
+        Sorry, your browser doesn't support videos.
+      </video>
+      <video style={{ height: 360, width: "100%" }} controls>
+        <source
+          src="https://hhsconstruction.s3.us-west-2.amazonaws.com/video4.mp4"
+          type="video/mp4"
+        ></source>
+        Sorry, your browser doesn't support videos.
+      </video>
+      <video style={{ height: 360, width: "100%" }} controls>
+        <source
+          src="https://hhsconstruction.s3.us-west-2.amazonaws.com/video2.mp4"
+          type="video/mp4"
+        ></source>
+        Sorry, your browser doesn't support videos.
+      </video>
+      <video style={{ height: 360, width: "100%" }} controls>
+        <source
+          src="https://hhsconstruction.s3.us-west-2.amazonaws.com/video1.mp4"
+          type="video/mp4"
+        ></source>
+        Sorry, your browser doesn't support videos.
+      </video>
+      <video style={{ height: 360, width: "100%" }} controls>
+        <source
+          src="https://hhsconstruction.s3.us-west-2.amazonaws.com/video3.mp4"
+          type="video/mp4"
+        ></source>
+        Sorry, your browser doesn't support videos.
+      </video>
       <Footer />
     </>
   );

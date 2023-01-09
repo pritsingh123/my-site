@@ -208,9 +208,17 @@ margin-left: 5vh;
     /* display: flex; */
     color:#fff;
     background-color: black;
-    height:100px;
+    height:106px;
     color:#fff;
     text-align: center;
     margin-top:2vh;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  }
+
+  .mylink{
+    font-size: .7em;
+    font-family: 'Brush Script MT', cursive;
+    text-align: right;
+    margin-right: 2px;
+    padding-bottom: 0%;
   }

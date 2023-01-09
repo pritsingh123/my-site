@@ -34,11 +34,11 @@ const Contact = () => {
               </ListGroup.Item>
               <ListGroup.Item>
                 <LocalPhoneIcon />
-                51454540066
+                +1 (437) 774-1128
               </ListGroup.Item>
               <ListGroup.Item>
                 <PhoneAndroidIcon />
-                67617617888
+                +1 (647) 938-2006
               </ListGroup.Item>
             </ListGroup>
           </div>

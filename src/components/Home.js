@@ -11,7 +11,6 @@ import interlockImg from "../media/Interlocking.jpeg";
 import sideEntranceImg from "../media/side-entrance.jpeg";
 import basementImg from "../media/basement.jpg";
 import renovationImg from "../media/renovation.jpeg";
-import HandshakeIcon from "@mui/icons-material/Handshake";
 import Col from "react-bootstrap/Col";
 import Row from "react-bootstrap/Row";
 
