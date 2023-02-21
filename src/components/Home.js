@@ -50,7 +50,7 @@ const Home = () => {
     {
       id: 7,
       img: basementImg,
-      title: "Fisnised Basement",
+      title: "Finished Basement",
       text: "Our own construction team will undertake the whole fit-out phase of the basement conversion project. The major benefit of our service is that you can work with a single team of specialists under one roof.",
     },
     {
